@@ -35,7 +35,8 @@ export const WrapperButton = styled.TouchableOpacity.attrs({
     bottom: 5,
   },
 })`
-  background: #101427;
+  background: ${({ active }) => (active ? '#101430' : '#101427')};
+  /* background: #101427; */
   border-radius: 10px;
   width: 48%;
   height: 150px;
@@ -60,7 +61,6 @@ export const ContainerHeight = styled.View`
   border-radius: 10px;
   width: 100%;
   height: 30%;
-  /* margin-top: 50px; */
   justify-content: center;
   align-items: center;
   align-content: space-between;
@@ -73,7 +73,7 @@ export const HeightContainer = styled.View`
 
 export const HeightSize = styled.Text`
   color: #fff;
-  font-size: 12px;
+  font-size: 16px;
 `;
 
 export const ContainerWightAge = styled.View`
@@ -85,7 +85,7 @@ export const ContainerWightAge = styled.View`
 
 export const Label = styled.Text`
   color: #999;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 `;
 

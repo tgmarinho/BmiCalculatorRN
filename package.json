@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@react-native-community/slider": "^2.0.0",
+    "prop-types": "^15.7.2",
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-gesture-handler": "^1.4.1",

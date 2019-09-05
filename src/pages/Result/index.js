@@ -13,19 +13,18 @@ import {
 import { Button, ButtonLabel } from '../../components/styles';
 
 export default function Results({ navigation }) {
+  console.tron.log(navigation.getParam('result'));
+  const result = navigation.getParam('result');
   return (
     <>
       <Container>
         <LabelResult>Your Result</LabelResult>
 
         <CardResult>
-          <TextNomal>NORMAL</TextNomal>
-          <TextNumber>23.1</TextNumber>
+          <TextNomal>{result.diagnostic}</TextNomal>
+          <TextNumber>{result.calc}</TextNumber>
           <TextBMI>Normal BMI range:</TextBMI>
-
-          <DescriptionResult>
-            You have a normal body weight. Good job!
-          </DescriptionResult>
+          <DescriptionResult>{result.description}</DescriptionResult>
         </CardResult>
       </Container>
       <Button onPress={() => navigation.navigate('Main')}>
