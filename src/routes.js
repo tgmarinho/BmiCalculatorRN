@@ -10,7 +10,7 @@ const Routes = createAppContainer(
       Results,
     },
     {
-      initialRouteName: 'Main',
+      initialRouteName: 'Results',
     }
   )
 );
