@@ -4,6 +4,7 @@ import Slider from '@react-native-community/slider';
 import { Button, ButtonLabel } from '../../components/styles';
 import CalculeBMI from '../../core/CalculeBMI';
 import useInterval from '../../customHooks/useInterval';
+import op from '../../core/operation';
 import {
   Container,
   TitleApp,
@@ -21,18 +22,6 @@ import {
   RowIcons,
 } from './styles';
 
-function op(operation, attrState, attrFunc, execute) {
-  if (execute === 'set') {
-    attrFunc(operation);
-  } else {
-    if (operation === 'minus') {
-      attrFunc(attrState - 1);
-    } else {
-      attrFunc(attrState + 1);
-    }
-  }
-}
-
 export default function Main({ navigation }) {
   const [gender, setGender] = useState('');
   const [height, setHeight] = useState(164);
@@ -43,11 +32,11 @@ export default function Main({ navigation }) {
   const [delayWeight, setDelayWeight] = useState(null);
 
   useInterval(() => {
-    op(operation, weight, setWeight, 'calc');
+    op(operation, weight, setWeight);
   }, delayWeight);
 
   useInterval(() => {
-    op(operation, age, setAge, 'calc');
+    op(operation, age, setAge);
   }, delayAge);
 
   function stopCount() {
@@ -59,16 +48,6 @@ export default function Main({ navigation }) {
     op(typeOperation, operation, setOperation, 'set');
     setDelayWeight(100);
   };
-
-  // const handleWeight = typeOperation => {
-  //   if (typeOperation === 'minus') {
-  //     setOperation(typeOperation);
-  //   }
-  //   if (typeOperation === 'plus') {
-  //     setOperation(typeOperation);
-  //   }
-  //   setDelayWeight(100);
-  // };
 
   const handleAge = typeOperation => {
     op(typeOperation, operation, setOperation, 'set');
