@@ -5,7 +5,9 @@
 
 ## Our Goal
 
-The objective is create the same app that [Angela Bauer](https://github.com/angelabauer) did with [Flutter](https://github.com/londonappbrewery/bmi-calculator-flutter), but instead of using Flutter I am using React Native.
+The objective is create the same app that [Angela Bauer](https://github.com/angelabauer) did with [App BMI Calc with Flutter](https://github.com/delacyr/bmi-calculator-flutter), but instead of using Flutter I am using React Native.
+
+Ps: This [repository](https://github.com/delacyr/bmi-calculator-flutter) is from my friend, he is taking Angela's course.
 
 ## Check it out
 
@@ -23,11 +25,11 @@ We’re going to make a Body Mass Index Calculator inspired by the beautiful des
 ## What I am using
 
 - React Native 0.60.5
-- React Navigation
-- React, Hooks
 - Styled Components
-- Enums
+- React Navigation
 - ESlint + Prettier
 - Vector Icons
+- React Hooks
+- Enum
 
 
