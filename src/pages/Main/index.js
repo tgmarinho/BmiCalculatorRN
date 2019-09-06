@@ -21,11 +21,15 @@ import {
   RowIcons,
 } from './styles';
 
-function op(operation, attrState, attrFunc) {
-  if (operation === 'minus') {
-    attrFunc(attrState - 1);
+function op(operation, attrState, attrFunc, execute) {
+  if (execute === 'set') {
+    attrFunc(operation);
   } else {
-    attrFunc(attrState + 1);
+    if (operation === 'minus') {
+      attrFunc(attrState - 1);
+    } else {
+      attrFunc(attrState + 1);
+    }
   }
 }
 
@@ -39,11 +43,11 @@ export default function Main({ navigation }) {
   const [delayWeight, setDelayWeight] = useState(null);
 
   useInterval(() => {
-    op(operation, weight, setWeight);
+    op(operation, weight, setWeight, 'calc');
   }, delayWeight);
 
   useInterval(() => {
-    op(operation, age, setAge);
+    op(operation, age, setAge, 'calc');
   }, delayAge);
 
   function stopCount() {
@@ -52,23 +56,22 @@ export default function Main({ navigation }) {
   }
 
   const handleWeight = typeOperation => {
-    if (typeOperation === 'minus') {
-      setOperation(typeOperation);
-    }
-    if (typeOperation === 'plus') {
-      setOperation(typeOperation);
-    }
+    op(typeOperation, operation, setOperation, 'set');
     setDelayWeight(100);
   };
 
+  // const handleWeight = typeOperation => {
+  //   if (typeOperation === 'minus') {
+  //     setOperation(typeOperation);
+  //   }
+  //   if (typeOperation === 'plus') {
+  //     setOperation(typeOperation);
+  //   }
+  //   setDelayWeight(100);
+  // };
+
   const handleAge = typeOperation => {
-    setDelayAge(100);
-    if (typeOperation === 'minus') {
-      setOperation(typeOperation);
-    }
-    if (typeOperation === 'plus') {
-      setOperation(typeOperation);
-    }
+    op(typeOperation, operation, setOperation, 'set');
     setDelayAge(100);
   };
 
