@@ -20,6 +20,8 @@ import {
 
 import { Button, ButtonLabel } from '../../components/styles';
 
+import CalculeBMI from '../../core/CalculeBMI';
+
 export default function Main({ navigation }) {
   const [gender, setGender] = useState('');
   const [height, setHeight] = useState(164);
@@ -27,26 +29,9 @@ export default function Main({ navigation }) {
   const [age, setAge] = useState(25);
 
   const handleCalculate = async () => {
-    const calc = (weight / (height / 100) ** 2).toFixed(2);
-    let description = '';
-    let diagnostic = '';
-
-    if (calc >= 25.0) {
-      diagnostic = 'Overweight!';
-      description =
-        'You have a higher than normal body weight. Try to exercise more.';
-    } else if (calc >= 18.0) {
-      diagnostic = 'Normal';
-      description = 'You have a normal body weight. Good job!';
-    } else {
-      diagnostic = 'Underweight!';
-      description =
-        'You have a lower than normal body weight. You can eat a bit more!';
-    }
-    console.tron.log(calc, diagnostic, description);
-    navigation.navigate('Result', {
-      result: { calc, diagnostic, description },
-    });
+    const result = new CalculeBMI(height, weight).showResult();
+    console.tron.log('result', result);
+    navigation.navigate('Result', { result });
   };
 
   const handleAge = operation => {
