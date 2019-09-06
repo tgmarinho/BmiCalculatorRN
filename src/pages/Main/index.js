@@ -30,7 +30,6 @@ export default function Main({ navigation }) {
 
   const handleCalculate = async () => {
     const result = new CalculeBMI(height, weight).showResult();
-    console.tron.log('result', result);
     navigation.navigate('Result', { result });
   };
 
@@ -130,3 +129,9 @@ export default function Main({ navigation }) {
     </>
   );
 }
+
+Main.propTypes = {
+  navigation: PropTypes.shape({
+    navigate: PropTypes.func,
+  }).isRequired,
+};

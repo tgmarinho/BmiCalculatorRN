@@ -1,6 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
-
+import PropTypes from 'prop-types';
 import {
   Container,
   LabelResult,
@@ -12,8 +11,7 @@ import {
 } from './styles';
 import { Button, ButtonLabel } from '../../components/styles';
 
-export default function Results({ navigation }) {
-  console.tron.log(navigation.getParam('result'));
+export default function Result({ navigation }) {
   const result = navigation.getParam('result');
   return (
     <>
@@ -33,3 +31,9 @@ export default function Results({ navigation }) {
     </>
   );
 }
+
+Result.propTypes = {
+  navigation: PropTypes.shape({
+    getParam: PropTypes.func,
+  }).isRequired,
+};
