@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Slider from '@react-native-community/slider';
 import {
@@ -21,34 +21,61 @@ import {
 import { Button, ButtonLabel } from '../../components/styles';
 
 import CalculeBMI from '../../core/CalculeBMI';
+import useInterval from '../../customHooks/useInterval';
 
 export default function Main({ navigation }) {
   const [gender, setGender] = useState('');
   const [height, setHeight] = useState(164);
   const [weight, setWeight] = useState(60);
+  const [opereation, setOperation] = useState('');
   const [age, setAge] = useState(25);
+  const [delayAge, setDelayAge] = useState(null);
+  const [delayWeight, setDelayWeight] = useState(null);
 
-  const handleCalculate = async () => {
-    const result = new CalculeBMI(height, weight).showResult();
-    navigation.navigate('Result', { result });
+  useInterval(() => {
+    if (opereation === 'minus') {
+      setWeight(weight - 1);
+    } else {
+      setWeight(weight + 1);
+    }
+  }, delayWeight);
+
+  useInterval(() => {
+    if (opereation === 'minus') {
+      setAge(age - 1);
+    } else {
+      setAge(age + 1);
+    }
+  }, delayAge);
+
+  function stopCount() {
+    setDelayAge(null);
+    setDelayWeight(null);
+  }
+
+  const handleWeight = operation => {
+    setDelayWeight(100);
+    if (operation === 'minus') {
+      setOperation(operation);
+    }
+    if (operation === 'plus') {
+      setOperation(operation);
+    }
   };
 
   const handleAge = operation => {
+    setDelayAge(100);
     if (operation === 'minus') {
-      setAge(age - 1);
+      setOperation(operation);
     }
     if (operation === 'plus') {
-      setAge(age + 1);
+      setOperation(operation);
     }
   };
 
-  const handleWeight = (operation = 'plus') => {
-    if (operation === 'minus') {
-      setWeight(weight - 1);
-    }
-    if (operation === 'plus') {
-      setWeight(weight + 1);
-    }
+  const handleCalculate = () => {
+    const result = new CalculeBMI(height, weight).showResult();
+    navigation.navigate('Result', { result });
   };
 
   return (
@@ -97,11 +124,17 @@ export default function Main({ navigation }) {
             <RowIcons>
               <CircleButton
                 disabled={weight === 0}
-                onPress={() => handleWeight('minus')}
+                onPress={() => setWeight(weight - 1)}
+                onPressIn={() => handleWeight('minus')}
+                onPressOut={stopCount}
               >
                 <CircleIcon name="minus" />
               </CircleButton>
-              <CircleButton onPress={() => handleWeight('plus')}>
+              <CircleButton
+                onPress={() => setWeight(weight + 1)}
+                onPressIn={() => handleWeight('plus')}
+                onPressOut={stopCount}
+              >
                 <CircleIcon name="plus" />
               </CircleButton>
             </RowIcons>
@@ -112,11 +145,17 @@ export default function Main({ navigation }) {
             <RowIcons>
               <CircleButton
                 disabled={age === 0}
-                onPress={() => handleAge('minus')}
+                onPress={() => setAge(age - 1)}
+                onPressIn={() => handleAge('minus')}
+                onPressOut={stopCount}
               >
                 <CircleIcon name="minus" />
               </CircleButton>
-              <CircleButton onPress={() => handleAge('plus')}>
+              <CircleButton
+                onPress={() => setAge(age + 1)}
+                onPressIn={() => handleAge('plus')}
+                onPressOut={stopCount}
+              >
                 <CircleIcon name="plus" />
               </CircleButton>
             </RowIcons>
