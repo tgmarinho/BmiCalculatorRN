@@ -35,5 +35,6 @@ export default function Result({ navigation }) {
 Result.propTypes = {
   navigation: PropTypes.shape({
     getParam: PropTypes.func,
+    navigate: PropTypes.func,
   }).isRequired,
 };

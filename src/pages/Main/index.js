@@ -1,6 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Slider from '@react-native-community/slider';
+import { Button, ButtonLabel } from '../../components/styles';
+import CalculeBMI from '../../core/CalculeBMI';
+import useInterval from '../../customHooks/useInterval';
 import {
   Container,
   TitleApp,
@@ -18,34 +21,29 @@ import {
   RowIcons,
 } from './styles';
 
-import { Button, ButtonLabel } from '../../components/styles';
-
-import CalculeBMI from '../../core/CalculeBMI';
-import useInterval from '../../customHooks/useInterval';
+function op(operation, attrState, attrFunc) {
+  if (operation === 'minus') {
+    attrFunc(attrState - 1);
+  } else {
+    attrFunc(attrState + 1);
+  }
+}
 
 export default function Main({ navigation }) {
   const [gender, setGender] = useState('');
   const [height, setHeight] = useState(164);
   const [weight, setWeight] = useState(60);
-  const [opereation, setOperation] = useState('');
+  const [operation, setOperation] = useState('');
   const [age, setAge] = useState(25);
   const [delayAge, setDelayAge] = useState(null);
   const [delayWeight, setDelayWeight] = useState(null);
 
   useInterval(() => {
-    if (opereation === 'minus') {
-      setWeight(weight - 1);
-    } else {
-      setWeight(weight + 1);
-    }
+    op(operation, weight, setWeight);
   }, delayWeight);
 
   useInterval(() => {
-    if (opereation === 'minus') {
-      setAge(age - 1);
-    } else {
-      setAge(age + 1);
-    }
+    op(operation, age, setAge);
   }, delayAge);
 
   function stopCount() {
@@ -53,24 +51,25 @@ export default function Main({ navigation }) {
     setDelayWeight(null);
   }
 
-  const handleWeight = operation => {
+  const handleWeight = typeOperation => {
+    if (typeOperation === 'minus') {
+      setOperation(typeOperation);
+    }
+    if (typeOperation === 'plus') {
+      setOperation(typeOperation);
+    }
     setDelayWeight(100);
-    if (operation === 'minus') {
-      setOperation(operation);
-    }
-    if (operation === 'plus') {
-      setOperation(operation);
-    }
   };
 
-  const handleAge = operation => {
+  const handleAge = typeOperation => {
     setDelayAge(100);
-    if (operation === 'minus') {
-      setOperation(operation);
+    if (typeOperation === 'minus') {
+      setOperation(typeOperation);
     }
-    if (operation === 'plus') {
-      setOperation(operation);
+    if (typeOperation === 'plus') {
+      setOperation(typeOperation);
     }
+    setDelayAge(100);
   };
 
   const handleCalculate = () => {
