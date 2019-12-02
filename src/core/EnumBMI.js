@@ -1,4 +1,4 @@
-import { Enum } from 'enumify';
+import {Enum} from 'enumify';
 
 class Interpretation extends Enum {}
 

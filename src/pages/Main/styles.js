@@ -1,7 +1,10 @@
 import styled from 'styled-components/native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import IconEntypo from 'react-native-vector-icons/Entypo';
-import { getBottomSpace } from 'react-native-iphone-x-helper';
+import {getBottomSpace} from 'react-native-iphone-x-helper';
+
+Icon.loadFont();
+IconEntypo.loadFont();
 
 export const Container = styled.View`
   flex: 1;
@@ -35,7 +38,7 @@ export const WrapperButton = styled.TouchableOpacity.attrs({
     bottom: 5,
   },
 })`
-  background: ${({ active }) => (active ? '#101430' : '#101427')};
+  background: ${({active}) => (active ? '#101430' : '#101427')};
   /* background: #101427; */
   border-radius: 10px;
   width: 48%;

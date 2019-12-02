@@ -7,35 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* BmiCalculatorRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BmiCalculatorRNTests.m */; };
+		00E356F31AD99517003FC87E /* BmiCalculatorRNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BmiCalculatorRNewTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		19E1C6995E092652076CA5CE /* libPods-BmiCalculatorRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5576BF7B33CA8A815821A81 /* libPods-BmiCalculatorRNTests.a */; };
-		1B9731D1E82E4BCE9CC7E569 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E892C93B0D441EDAFE735B1 /* FontAwesome5_Brands.ttf */; };
-		2C08E31A784B48E29229E9D7 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65C799EBBD1D4FFEB8137193 /* FontAwesome.ttf */; };
+		28C8D1A8F0297F365B7C9690 /* libPods-BmiCalculatorRNew.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12528FD80C7C23517A188673 /* libPods-BmiCalculatorRNew.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* BmiCalculatorRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BmiCalculatorRNTests.m */; };
-		3853F5DAE42544E5A8797A02 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FA66525758145729117E595 /* Entypo.ttf */; };
-		407714AA18D6407689A2A8EC /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41B8D1AEE4E84621AABCEDD6 /* Feather.ttf */; };
-		48A2086D1B364177AA0F4426 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA35EAB7964949F5A3CC4077 /* Ionicons.ttf */; };
-		54496BC758704772A591E297 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8C3C5A9B0F40E68E1720FA /* AntDesign.ttf */; };
-		54B7D4538D5F4781B754CAAB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3D89793D644B9A96AD6D5 /* MaterialIcons.ttf */; };
-		6D06A68EF16B44C3B745AFC7 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C21D809FB94109B0B95AB7 /* Foundation.ttf */; };
-		6DC29C03969A4F2197AC5515 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BB65523D71949B1AB513A7A /* Zocial.ttf */; };
-		72EB8C05E7124766879162ED /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 972001696BC14F52AE48C449 /* EvilIcons.ttf */; };
-		7A1A34822D9C50B37D3A6C8F /* libPods-BmiCalculatorRN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E78AB44AB120842FF8885C9A /* libPods-BmiCalculatorRN-tvOSTests.a */; };
-		81963C8FCE5F62DAC1882949 /* libPods-BmiCalculatorRN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB03D8D2BDEC73D13E31B2 /* libPods-BmiCalculatorRN-tvOS.a */; };
-		8537A252CF7743E19F75A8DF /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977C205F68994CEC9652CDD1 /* FontAwesome5_Regular.ttf */; };
-		96E45F2BCDCE4CA49529941C /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFCC9941E494A2DA5EC1A5C /* FontAwesome5_Solid.ttf */; };
-		A76DD00DF2A24586A248CF35 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 677581974A3D47E2B5472C1B /* SimpleLineIcons.ttf */; };
-		A7918285A2D083706FB36C45 /* libPods-BmiCalculatorRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F66E77E2AC8D3DB6D4494E7C /* libPods-BmiCalculatorRN.a */; };
-		B2882544A5C74F3EAED15BDF /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4E97A820C214F0E8BC9499F /* MaterialCommunityIcons.ttf */; };
-		BF887660237B4188816CAAE8 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19D314232B104BB98358191C /* Fontisto.ttf */; };
-		F5CC5E186A5F483A8181E5F5 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4FDAFFE386F40B08746F4E2 /* Octicons.ttf */; };
+		2DCD954D1E0B4F2C00145EB5 /* BmiCalculatorRNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BmiCalculatorRNewTests.m */; };
+		9B4FC8E1C3DC3F549498B67F /* libPods-BmiCalculatorRNew-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1645529B67302431BE6CF5 /* libPods-BmiCalculatorRNew-tvOSTests.a */; };
+		C86E451FB504C0D191E8ACC5 /* libPods-BmiCalculatorRNewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB4BEC72F2003DFCB856D9C /* libPods-BmiCalculatorRNewTests.a */; };
+		D9C0617AACCF64BE14D1C6AA /* libPods-BmiCalculatorRNew-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D043DB603F07A9E59446610A /* libPods-BmiCalculatorRNew-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,61 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = BmiCalculatorRN;
+			remoteInfo = BmiCalculatorRNew;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "BmiCalculatorRN-tvOS";
+			remoteInfo = "BmiCalculatorRNew-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* BmiCalculatorRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BmiCalculatorRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* BmiCalculatorRNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BmiCalculatorRNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* BmiCalculatorRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BmiCalculatorRNTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* BmiCalculatorRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmiCalculatorRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BmiCalculatorRN/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BmiCalculatorRN/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BmiCalculatorRNewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BmiCalculatorRNewTests.m; sourceTree = "<group>"; };
+		12528FD80C7C23517A188673 /* libPods-BmiCalculatorRNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* BmiCalculatorRNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmiCalculatorRNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BmiCalculatorRNew/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BmiCalculatorRNew/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BmiCalculatorRN/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BmiCalculatorRN/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BmiCalculatorRN/main.m; sourceTree = "<group>"; };
-		19D314232B104BB98358191C /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		205214B8AEA2CF5B6CC3FF92 /* Pods-BmiCalculatorRN-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRN-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRN-tvOSTests/Pods-BmiCalculatorRN-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		27AFDA8172F10BF2E193CEE0 /* Pods-BmiCalculatorRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRN-tvOS/Pods-BmiCalculatorRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* BmiCalculatorRN-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BmiCalculatorRN-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* BmiCalculatorRN-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BmiCalculatorRN-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41B8D1AEE4E84621AABCEDD6 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		4B8C3C5A9B0F40E68E1720FA /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		53908FDD4B6B7502E7C054F4 /* Pods-BmiCalculatorRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRN.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRN/Pods-BmiCalculatorRN.debug.xcconfig"; sourceTree = "<group>"; };
-		5FA66525758145729117E595 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		65C799EBBD1D4FFEB8137193 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		677581974A3D47E2B5472C1B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		8BB65523D71949B1AB513A7A /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		8EA3D89793D644B9A96AD6D5 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		972001696BC14F52AE48C449 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		977C205F68994CEC9652CDD1 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		97C21D809FB94109B0B95AB7 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		9BFCC9941E494A2DA5EC1A5C /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
-		9E892C93B0D441EDAFE735B1 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		A5576BF7B33CA8A815821A81 /* libPods-BmiCalculatorRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2FFA3EBCEA442CD6568F939 /* Pods-BmiCalculatorRN-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRN-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRN-tvOSTests/Pods-BmiCalculatorRN-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		B4E97A820C214F0E8BC9499F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		CA35EAB7964949F5A3CC4077 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		D1D2133A145005292CF03171 /* Pods-BmiCalculatorRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNTests.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNTests/Pods-BmiCalculatorRNTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E4FDAFFE386F40B08746F4E2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		E78AB44AB120842FF8885C9A /* libPods-BmiCalculatorRN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA193CC079202EB3BA04407C /* Pods-BmiCalculatorRN-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRN-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRN-tvOS/Pods-BmiCalculatorRN-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BmiCalculatorRNew/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BmiCalculatorRNew/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BmiCalculatorRNew/main.m; sourceTree = "<group>"; };
+		1716F6DE17F77448DCCE0B00 /* Pods-BmiCalculatorRNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNew.release.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNew/Pods-BmiCalculatorRNew.release.xcconfig"; sourceTree = "<group>"; };
+		1A1645529B67302431BE6CF5 /* libPods-BmiCalculatorRNew-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRNew-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2590B5FCD0CFAF5D67FCC292 /* Pods-BmiCalculatorRNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNewTests.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNewTests/Pods-BmiCalculatorRNewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* BmiCalculatorRNew-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BmiCalculatorRNew-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* BmiCalculatorRNew-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BmiCalculatorRNew-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3615F30AC583B96802E77898 /* Pods-BmiCalculatorRNewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNewTests.release.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNewTests/Pods-BmiCalculatorRNewTests.release.xcconfig"; sourceTree = "<group>"; };
+		403926882B609509CFEAFCE4 /* Pods-BmiCalculatorRNew-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNew-tvOS.release.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNew-tvOS/Pods-BmiCalculatorRNew-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		69D4C267952EDB5901116B21 /* Pods-BmiCalculatorRNew-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNew-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNew-tvOSTests/Pods-BmiCalculatorRNew-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D3B1ECA8EB9167D2A6534CD /* Pods-BmiCalculatorRNew-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNew-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNew-tvOS/Pods-BmiCalculatorRNew-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		855888BE2F9C2DA8F5FAB453 /* Pods-BmiCalculatorRNew-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNew-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNew-tvOSTests/Pods-BmiCalculatorRNew-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAB4BEC72F2003DFCB856D9C /* libPods-BmiCalculatorRNewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRNewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D043DB603F07A9E59446610A /* libPods-BmiCalculatorRNew-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRNew-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EDDB03D8D2BDEC73D13E31B2 /* libPods-BmiCalculatorRN-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRN-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1B56C6B1822A63447897B5E /* Pods-BmiCalculatorRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNTests.release.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNTests/Pods-BmiCalculatorRNTests.release.xcconfig"; sourceTree = "<group>"; };
-		F66E77E2AC8D3DB6D4494E7C /* libPods-BmiCalculatorRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCCD2395D58FCAF8A99C05E3 /* Pods-BmiCalculatorRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRN.release.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRN/Pods-BmiCalculatorRN.release.xcconfig"; sourceTree = "<group>"; };
+		F567A1A63A0BBB22AA4719D2 /* Pods-BmiCalculatorRNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNew.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNew/Pods-BmiCalculatorRNew.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19E1C6995E092652076CA5CE /* libPods-BmiCalculatorRNTests.a in Frameworks */,
+				C86E451FB504C0D191E8ACC5 /* libPods-BmiCalculatorRNewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7918285A2D083706FB36C45 /* libPods-BmiCalculatorRN.a in Frameworks */,
+				28C8D1A8F0297F365B7C9690 /* libPods-BmiCalculatorRNew.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81963C8FCE5F62DAC1882949 /* libPods-BmiCalculatorRN-tvOS.a in Frameworks */,
+				D9C0617AACCF64BE14D1C6AA /* libPods-BmiCalculatorRNew-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A1A34822D9C50B37D3A6C8F /* libPods-BmiCalculatorRN-tvOSTests.a in Frameworks */,
+				9B4FC8E1C3DC3F549498B67F /* libPods-BmiCalculatorRNew-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* BmiCalculatorRNTests */ = {
+		00E356EF1AD99517003FC87E /* BmiCalculatorRNewTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* BmiCalculatorRNTests.m */,
+				00E356F21AD99517003FC87E /* BmiCalculatorRNewTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = BmiCalculatorRNTests;
+			path = BmiCalculatorRNewTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -154,31 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0AEBB9D71FF7495FBCAA0E80 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4B8C3C5A9B0F40E68E1720FA /* AntDesign.ttf */,
-				5FA66525758145729117E595 /* Entypo.ttf */,
-				972001696BC14F52AE48C449 /* EvilIcons.ttf */,
-				41B8D1AEE4E84621AABCEDD6 /* Feather.ttf */,
-				65C799EBBD1D4FFEB8137193 /* FontAwesome.ttf */,
-				9E892C93B0D441EDAFE735B1 /* FontAwesome5_Brands.ttf */,
-				977C205F68994CEC9652CDD1 /* FontAwesome5_Regular.ttf */,
-				9BFCC9941E494A2DA5EC1A5C /* FontAwesome5_Solid.ttf */,
-				19D314232B104BB98358191C /* Fontisto.ttf */,
-				97C21D809FB94109B0B95AB7 /* Foundation.ttf */,
-				CA35EAB7964949F5A3CC4077 /* Ionicons.ttf */,
-				B4E97A820C214F0E8BC9499F /* MaterialCommunityIcons.ttf */,
-				8EA3D89793D644B9A96AD6D5 /* MaterialIcons.ttf */,
-				E4FDAFFE386F40B08746F4E2 /* Octicons.ttf */,
-				677581974A3D47E2B5472C1B /* SimpleLineIcons.ttf */,
-				8BB65523D71949B1AB513A7A /* Zocial.ttf */,
-			);
-			name = Resources;
-			path = "";
-			sourceTree = "<group>";
-		};
-		13B07FAE1A68108700A75B9A /* BmiCalculatorRN */ = {
+		13B07FAE1A68108700A75B9A /* BmiCalculatorRNew */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -189,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = BmiCalculatorRN;
+			name = BmiCalculatorRNew;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -197,28 +141,12 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				F66E77E2AC8D3DB6D4494E7C /* libPods-BmiCalculatorRN.a */,
-				EDDB03D8D2BDEC73D13E31B2 /* libPods-BmiCalculatorRN-tvOS.a */,
-				E78AB44AB120842FF8885C9A /* libPods-BmiCalculatorRN-tvOSTests.a */,
-				A5576BF7B33CA8A815821A81 /* libPods-BmiCalculatorRNTests.a */,
+				12528FD80C7C23517A188673 /* libPods-BmiCalculatorRNew.a */,
+				D043DB603F07A9E59446610A /* libPods-BmiCalculatorRNew-tvOS.a */,
+				1A1645529B67302431BE6CF5 /* libPods-BmiCalculatorRNew-tvOSTests.a */,
+				AAB4BEC72F2003DFCB856D9C /* libPods-BmiCalculatorRNewTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		572607776B9841042B880E79 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				53908FDD4B6B7502E7C054F4 /* Pods-BmiCalculatorRN.debug.xcconfig */,
-				FCCD2395D58FCAF8A99C05E3 /* Pods-BmiCalculatorRN.release.xcconfig */,
-				27AFDA8172F10BF2E193CEE0 /* Pods-BmiCalculatorRN-tvOS.debug.xcconfig */,
-				EA193CC079202EB3BA04407C /* Pods-BmiCalculatorRN-tvOS.release.xcconfig */,
-				205214B8AEA2CF5B6CC3FF92 /* Pods-BmiCalculatorRN-tvOSTests.debug.xcconfig */,
-				B2FFA3EBCEA442CD6568F939 /* Pods-BmiCalculatorRN-tvOSTests.release.xcconfig */,
-				D1D2133A145005292CF03171 /* Pods-BmiCalculatorRNTests.debug.xcconfig */,
-				F1B56C6B1822A63447897B5E /* Pods-BmiCalculatorRNTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -231,13 +159,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* BmiCalculatorRN */,
+				13B07FAE1A68108700A75B9A /* BmiCalculatorRNew */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* BmiCalculatorRNTests */,
+				00E356EF1AD99517003FC87E /* BmiCalculatorRNewTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				572607776B9841042B880E79 /* Pods */,
-				0AEBB9D71FF7495FBCAA0E80 /* Resources */,
+				B3E5017595C100A06B00A757 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -247,22 +174,38 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* BmiCalculatorRN.app */,
-				00E356EE1AD99517003FC87E /* BmiCalculatorRNTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* BmiCalculatorRN-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* BmiCalculatorRN-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* BmiCalculatorRNew.app */,
+				00E356EE1AD99517003FC87E /* BmiCalculatorRNewTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* BmiCalculatorRNew-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* BmiCalculatorRNew-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E5017595C100A06B00A757 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F567A1A63A0BBB22AA4719D2 /* Pods-BmiCalculatorRNew.debug.xcconfig */,
+				1716F6DE17F77448DCCE0B00 /* Pods-BmiCalculatorRNew.release.xcconfig */,
+				6D3B1ECA8EB9167D2A6534CD /* Pods-BmiCalculatorRNew-tvOS.debug.xcconfig */,
+				403926882B609509CFEAFCE4 /* Pods-BmiCalculatorRNew-tvOS.release.xcconfig */,
+				69D4C267952EDB5901116B21 /* Pods-BmiCalculatorRNew-tvOSTests.debug.xcconfig */,
+				855888BE2F9C2DA8F5FAB453 /* Pods-BmiCalculatorRNew-tvOSTests.release.xcconfig */,
+				2590B5FCD0CFAF5D67FCC292 /* Pods-BmiCalculatorRNewTests.debug.xcconfig */,
+				3615F30AC583B96802E77898 /* Pods-BmiCalculatorRNewTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* BmiCalculatorRNTests */ = {
+		00E356ED1AD99517003FC87E /* BmiCalculatorRNewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BmiCalculatorRNTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BmiCalculatorRNewTests" */;
 			buildPhases = (
-				9CF115A7DCB0367FD973B0E4 /* [CP] Check Pods Manifest.lock */,
+				6F336D5B038E7FF26FB17614 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -272,37 +215,37 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = BmiCalculatorRNTests;
-			productName = BmiCalculatorRNTests;
-			productReference = 00E356EE1AD99517003FC87E /* BmiCalculatorRNTests.xctest */;
+			name = BmiCalculatorRNewTests;
+			productName = BmiCalculatorRNewTests;
+			productReference = 00E356EE1AD99517003FC87E /* BmiCalculatorRNewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* BmiCalculatorRN */ = {
+		13B07F861A680F5B00A75B9A /* BmiCalculatorRNew */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BmiCalculatorRN" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BmiCalculatorRNew" */;
 			buildPhases = (
-				B0178D8D13482BEB7BC272BA /* [CP] Check Pods Manifest.lock */,
+				2E441BB9654B4A25F9E6A170 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				66808EE538C1B8F1D43B0178 /* [CP] Copy Pods Resources */,
+				3A1E9C45CBAA03EACE7C91EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BmiCalculatorRN;
-			productName = BmiCalculatorRN;
-			productReference = 13B07F961A680F5B00A75B9A /* BmiCalculatorRN.app */;
+			name = BmiCalculatorRNew;
+			productName = BmiCalculatorRNew;
+			productReference = 13B07F961A680F5B00A75B9A /* BmiCalculatorRNew.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* BmiCalculatorRN-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* BmiCalculatorRNew-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BmiCalculatorRN-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BmiCalculatorRNew-tvOS" */;
 			buildPhases = (
-				E155FB544F086B358E6391D7 /* [CP] Check Pods Manifest.lock */,
+				D4841F713923CB9BA545529C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -313,16 +256,16 @@
 			);
 			dependencies = (
 			);
-			name = "BmiCalculatorRN-tvOS";
-			productName = "BmiCalculatorRN-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* BmiCalculatorRN-tvOS.app */;
+			name = "BmiCalculatorRNew-tvOS";
+			productName = "BmiCalculatorRNew-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* BmiCalculatorRNew-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* BmiCalculatorRN-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* BmiCalculatorRNew-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BmiCalculatorRN-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BmiCalculatorRNew-tvOSTests" */;
 			buildPhases = (
-				8CD1349EEA5EE2AA9B26C4AC /* [CP] Check Pods Manifest.lock */,
+				41190789AAE2E03A518FA903 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -332,9 +275,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "BmiCalculatorRN-tvOSTests";
-			productName = "BmiCalculatorRN-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* BmiCalculatorRN-tvOSTests.xctest */;
+			name = "BmiCalculatorRNew-tvOSTests";
+			productName = "BmiCalculatorRNew-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* BmiCalculatorRNew-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -343,7 +286,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 940;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -361,7 +304,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BmiCalculatorRN" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BmiCalculatorRNew" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -374,10 +317,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* BmiCalculatorRN */,
-				00E356ED1AD99517003FC87E /* BmiCalculatorRNTests */,
-				2D02E47A1E0B4A5D006451C7 /* BmiCalculatorRN-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* BmiCalculatorRN-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* BmiCalculatorRNew */,
+				00E356ED1AD99517003FC87E /* BmiCalculatorRNewTests */,
+				2D02E47A1E0B4A5D006451C7 /* BmiCalculatorRNew-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* BmiCalculatorRNew-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -396,22 +339,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				54496BC758704772A591E297 /* AntDesign.ttf in Resources */,
-				3853F5DAE42544E5A8797A02 /* Entypo.ttf in Resources */,
-				72EB8C05E7124766879162ED /* EvilIcons.ttf in Resources */,
-				407714AA18D6407689A2A8EC /* Feather.ttf in Resources */,
-				2C08E31A784B48E29229E9D7 /* FontAwesome.ttf in Resources */,
-				1B9731D1E82E4BCE9CC7E569 /* FontAwesome5_Brands.ttf in Resources */,
-				8537A252CF7743E19F75A8DF /* FontAwesome5_Regular.ttf in Resources */,
-				96E45F2BCDCE4CA49529941C /* FontAwesome5_Solid.ttf in Resources */,
-				BF887660237B4188816CAAE8 /* Fontisto.ttf in Resources */,
-				6D06A68EF16B44C3B745AFC7 /* Foundation.ttf in Resources */,
-				48A2086D1B364177AA0F4426 /* Ionicons.ttf in Resources */,
-				B2882544A5C74F3EAED15BDF /* MaterialCommunityIcons.ttf in Resources */,
-				54B7D4538D5F4781B754CAAB /* MaterialIcons.ttf in Resources */,
-				F5CC5E186A5F483A8181E5F5 /* Octicons.ttf in Resources */,
-				A76DD00DF2A24586A248CF35 /* SimpleLineIcons.ttf in Resources */,
-				6DC29C03969A4F2197AC5515 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,13 +388,35 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		66808EE538C1B8F1D43B0178 /* [CP] Copy Pods Resources */ = {
+		2E441BB9654B4A25F9E6A170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BmiCalculatorRNew-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1E9C45CBAA03EACE7C91EE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BmiCalculatorRN/Pods-BmiCalculatorRN-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BmiCalculatorRNew/Pods-BmiCalculatorRNew-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -506,10 +455,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BmiCalculatorRN/Pods-BmiCalculatorRN-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BmiCalculatorRNew/Pods-BmiCalculatorRNew-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8CD1349EEA5EE2AA9B26C4AC /* [CP] Check Pods Manifest.lock */ = {
+		41190789AAE2E03A518FA903 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -524,14 +473,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BmiCalculatorRN-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BmiCalculatorRNew-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9CF115A7DCB0367FD973B0E4 /* [CP] Check Pods Manifest.lock */ = {
+		6F336D5B038E7FF26FB17614 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -546,14 +495,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BmiCalculatorRNTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BmiCalculatorRNewTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B0178D8D13482BEB7BC272BA /* [CP] Check Pods Manifest.lock */ = {
+		D4841F713923CB9BA545529C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -568,29 +517,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BmiCalculatorRN-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E155FB544F086B358E6391D7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BmiCalculatorRN-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BmiCalculatorRNew-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -642,7 +569,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* BmiCalculatorRNTests.m in Sources */,
+				00E356F31AD99517003FC87E /* BmiCalculatorRNewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,7 +595,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* BmiCalculatorRNTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* BmiCalculatorRNewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,12 +604,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* BmiCalculatorRN */;
+			target = 13B07F861A680F5B00A75B9A /* BmiCalculatorRNew */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* BmiCalculatorRN-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* BmiCalculatorRNew-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -694,7 +621,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = BmiCalculatorRN;
+			path = BmiCalculatorRNew;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -702,14 +629,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1D2133A145005292CF03171 /* Pods-BmiCalculatorRNTests.debug.xcconfig */;
+			baseConfigurationReference = 2590B5FCD0CFAF5D67FCC292 /* Pods-BmiCalculatorRNewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = BmiCalculatorRNTests/Info.plist;
+				INFOPLIST_FILE = BmiCalculatorRNewTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -719,17 +646,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmiCalculatorRN.app/BmiCalculatorRN";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmiCalculatorRNew.app/BmiCalculatorRNew";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1B56C6B1822A63447897B5E /* Pods-BmiCalculatorRNTests.release.xcconfig */;
+			baseConfigurationReference = 3615F30AC583B96802E77898 /* Pods-BmiCalculatorRNewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = BmiCalculatorRNTests/Info.plist;
+				INFOPLIST_FILE = BmiCalculatorRNewTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -739,18 +666,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmiCalculatorRN.app/BmiCalculatorRN";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmiCalculatorRNew.app/BmiCalculatorRNew";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53908FDD4B6B7502E7C054F4 /* Pods-BmiCalculatorRN.debug.xcconfig */;
+			baseConfigurationReference = F567A1A63A0BBB22AA4719D2 /* Pods-BmiCalculatorRNew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = BmiCalculatorRN/Info.plist;
+				INFOPLIST_FILE = BmiCalculatorRNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -758,18 +685,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = BmiCalculatorRN;
+				PRODUCT_NAME = BmiCalculatorRNew;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCCD2395D58FCAF8A99C05E3 /* Pods-BmiCalculatorRN.release.xcconfig */;
+			baseConfigurationReference = 1716F6DE17F77448DCCE0B00 /* Pods-BmiCalculatorRNew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = BmiCalculatorRN/Info.plist;
+				INFOPLIST_FILE = BmiCalculatorRNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -777,14 +704,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = BmiCalculatorRN;
+				PRODUCT_NAME = BmiCalculatorRNew;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27AFDA8172F10BF2E193CEE0 /* Pods-BmiCalculatorRN-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 6D3B1ECA8EB9167D2A6534CD /* Pods-BmiCalculatorRNew-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -795,14 +722,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "BmiCalculatorRN-tvOS/Info.plist";
+				INFOPLIST_FILE = "BmiCalculatorRNew-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BmiCalculatorRN-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BmiCalculatorRNew-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -812,7 +739,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA193CC079202EB3BA04407C /* Pods-BmiCalculatorRN-tvOS.release.xcconfig */;
+			baseConfigurationReference = 403926882B609509CFEAFCE4 /* Pods-BmiCalculatorRNew-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -823,14 +750,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "BmiCalculatorRN-tvOS/Info.plist";
+				INFOPLIST_FILE = "BmiCalculatorRNew-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BmiCalculatorRN-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BmiCalculatorRNew-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -840,7 +767,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 205214B8AEA2CF5B6CC3FF92 /* Pods-BmiCalculatorRN-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 69D4C267952EDB5901116B21 /* Pods-BmiCalculatorRNew-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -850,24 +777,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "BmiCalculatorRN-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "BmiCalculatorRNew-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BmiCalculatorRN-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BmiCalculatorRNew-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmiCalculatorRN-tvOS.app/BmiCalculatorRN-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmiCalculatorRNew-tvOS.app/BmiCalculatorRNew-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2FFA3EBCEA442CD6568F939 /* Pods-BmiCalculatorRN-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 855888BE2F9C2DA8F5FAB453 /* Pods-BmiCalculatorRNew-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -877,17 +804,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "BmiCalculatorRN-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "BmiCalculatorRNew-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BmiCalculatorRN-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.BmiCalculatorRNew-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmiCalculatorRN-tvOS.app/BmiCalculatorRN-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmiCalculatorRNew-tvOS.app/BmiCalculatorRNew-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -994,7 +921,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BmiCalculatorRNTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BmiCalculatorRNewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1003,7 +930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BmiCalculatorRN" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BmiCalculatorRNew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1012,7 +939,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BmiCalculatorRN-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BmiCalculatorRNew-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1021,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BmiCalculatorRN-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "BmiCalculatorRNew-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1030,7 +957,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BmiCalculatorRN" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BmiCalculatorRNew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
