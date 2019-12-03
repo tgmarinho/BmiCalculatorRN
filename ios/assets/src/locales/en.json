@@ -1,0 +1,34 @@
+{
+  "main": {
+    "title": "BMI CALCULATOR",
+    "male": "MALE",
+    "female": "FEMALE",
+    "height": "HEIGHT",
+    "weight": "WEIGHT",
+    "age": "AGE",
+    "calculate": "CALCULATE"
+  },
+
+  "result": {
+    "title": "Your Result",
+    "bmi": "Normal BMI range",
+    "diagnostic": "ops",
+    "description": "ops",
+    "button": "RE-CALCULATE"
+  },
+
+  "enumbmi": {
+    "overweight": {
+      "diagnostic": "OVERWEIGHT!",
+      "description": "You have a higher than normal body weight. Try to exercise more."
+    },
+    "normal": {
+      "diagnostic": "NORMAL!",
+      "description": "You have a normal body weight. Good job!"
+    },
+    "underweight": {
+      "diagnostic": "UNDERWEIGHT!",
+      "description": "You have a lower than normal body weight. You can eat a bit more!"
+    }
+  }
+}

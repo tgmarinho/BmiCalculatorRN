@@ -17,6 +17,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* BmiCalculatorRNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BmiCalculatorRNewTests.m */; };
+		9784030F23969F09008EC973 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 9784030E23969F09008EC973 /* main.jsbundle */; };
 		9B4FC8E1C3DC3F549498B67F /* libPods-BmiCalculatorRNew-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1645529B67302431BE6CF5 /* libPods-BmiCalculatorRNew-tvOSTests.a */; };
 		C86E451FB504C0D191E8ACC5 /* libPods-BmiCalculatorRNewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB4BEC72F2003DFCB856D9C /* libPods-BmiCalculatorRNewTests.a */; };
 		D9C0617AACCF64BE14D1C6AA /* libPods-BmiCalculatorRNew-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D043DB603F07A9E59446610A /* libPods-BmiCalculatorRNew-tvOS.a */; };
@@ -40,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* BmiCalculatorRNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BmiCalculatorRNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* BmiCalculatorRNewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BmiCalculatorRNewTests.m; sourceTree = "<group>"; };
@@ -62,6 +62,7 @@
 		69D4C267952EDB5901116B21 /* Pods-BmiCalculatorRNew-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNew-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNew-tvOSTests/Pods-BmiCalculatorRNew-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3B1ECA8EB9167D2A6534CD /* Pods-BmiCalculatorRNew-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNew-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNew-tvOS/Pods-BmiCalculatorRNew-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		855888BE2F9C2DA8F5FAB453 /* Pods-BmiCalculatorRNew-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmiCalculatorRNew-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-BmiCalculatorRNew-tvOSTests/Pods-BmiCalculatorRNew-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9784030E23969F09008EC973 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		AAB4BEC72F2003DFCB856D9C /* libPods-BmiCalculatorRNewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRNewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D043DB603F07A9E59446610A /* libPods-BmiCalculatorRNew-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmiCalculatorRNew-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -125,7 +126,7 @@
 		13B07FAE1A68108700A75B9A /* BmiCalculatorRNew */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				9784030E23969F09008EC973 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -194,7 +195,6 @@
 				2590B5FCD0CFAF5D67FCC292 /* Pods-BmiCalculatorRNewTests.debug.xcconfig */,
 				3615F30AC583B96802E77898 /* Pods-BmiCalculatorRNewTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -309,6 +309,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -337,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9784030F23969F09008EC973 /* main.jsbundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
