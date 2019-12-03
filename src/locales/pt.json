@@ -1,0 +1,34 @@
+{
+  "main": {
+    "title": "CALCULADORA IMC",
+    "male": "MASCULINO",
+    "female": "FEMININO",
+    "height": "ALTURA",
+    "weight": "PESO",
+    "age": "IDADE",
+    "calculate": "CALCULAR"
+  },
+
+  "result": {
+    "title": "Seu resultado",
+    "bmi": "IMC Normal",
+    "diagnostic": "ops",
+    "description": "ops",
+    "button": "RECALCULAR"
+  },
+
+  "enumbmi": {
+    "overweight": {
+      "diagnostic": "OBESIDADE!",
+      "description": " Você está acima do seu peso normal. Exercite-se mais."
+    },
+    "normal": {
+      "diagnostic": "NORMAL!",
+      "description": "Você está no seu peso normal. Bom trabalho!"
+    },
+    "underweight": {
+      "diagnostic": "ABAIXO DO PESO!",
+      "description": "Você está abaixo do seu peso normal. Você deve comer mais."
+    }
+  }
+}

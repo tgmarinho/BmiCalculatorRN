@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import Slider from '@react-native-community/slider';
-import { Button, ButtonLabel } from '../../components/styles';
+import {Button, ButtonLabel} from '../../components/styles';
 import CalculeBMI from '../../core/CalculeBMI';
 import useInterval from '../../customHooks/useInterval';
 import op from '../../core/operation';
@@ -21,13 +21,16 @@ import {
   CircleIcon,
   RowIcons,
 } from './styles';
+import i18n from '../../i18n';
 
-export default function Main({ navigation }) {
-  const [gender, setGender] = useState('');
-  const [height, setHeight] = useState(164);
-  const [weight, setWeight] = useState(60);
+export default function Main({navigation}) {
+  const data = navigation.getParam('data');
+
+  const [gender, setGender] = useState(data.gender || '');
+  const [height, setHeight] = useState(data.height || 164);
+  const [weight, setWeight] = useState(data.weight || 60);
   const [operation, setOperation] = useState('');
-  const [age, setAge] = useState(25);
+  const [age, setAge] = useState(data.age || 25);
   const [delayAge, setDelayAge] = useState(null);
   const [delayWeight, setDelayWeight] = useState(null);
 
@@ -56,38 +59,39 @@ export default function Main({ navigation }) {
 
   const handleCalculate = () => {
     const result = new CalculeBMI(height, weight).showResult();
-    navigation.navigate('Result', { result });
+    navigation.navigate('Result', {
+      result,
+      data: {age, gender, height, weight},
+    });
   };
 
   return (
     <>
       <Container>
-        <TitleApp>BMI CALCULATOR</TitleApp>
+        <TitleApp>{i18n.t('main.title')}</TitleApp>
         <Row>
           <WrapperButton
             active={gender === 'male'}
-            onPress={() => setGender('male')}
-          >
+            onPress={() => setGender('male')}>
             <GenderIcon name="gender-male" />
-            <Label>MALE</Label>
+            <Label>{i18n.t('main.male')}</Label>
           </WrapperButton>
           <WrapperButton
             active={gender === 'female'}
-            onPress={() => setGender('female')}
-          >
+            onPress={() => setGender('female')}>
             <GenderIcon name="gender-female" />
-            <Label>FEMALE</Label>
+            <Label>{i18n.t('main.female')}</Label>
           </WrapperButton>
         </Row>
 
         <ContainerHeight>
-          <Label>HEIGHT</Label>
+          <Label>{i18n.t('main.height')}</Label>
           <HeightContainer>
             <Number>{height}</Number>
             <HeightSize>cm</HeightSize>
           </HeightContainer>
           <Slider
-            style={{ width: 300, height: 40 }}
+            style={{width: 300, height: 40}}
             value={height}
             onValueChange={value => setHeight(value)}
             step={1}
@@ -100,43 +104,39 @@ export default function Main({ navigation }) {
         </ContainerHeight>
         <Row>
           <WrapperCard>
-            <Label>WEIGHT</Label>
+            <Label>{i18n.t('main.weight')}</Label>
             <Number>{weight}</Number>
             <RowIcons>
               <CircleButton
                 disabled={weight === 0}
                 onPress={() => setWeight(weight - 1)}
                 onPressIn={() => handleWeight('minus')}
-                onPressOut={stopCount}
-              >
+                onPressOut={stopCount}>
                 <CircleIcon name="minus" />
               </CircleButton>
               <CircleButton
                 onPress={() => setWeight(weight + 1)}
                 onPressIn={() => handleWeight('plus')}
-                onPressOut={stopCount}
-              >
+                onPressOut={stopCount}>
                 <CircleIcon name="plus" />
               </CircleButton>
             </RowIcons>
           </WrapperCard>
           <WrapperCard>
-            <Label>AGE</Label>
+            <Label>{i18n.t('main.age')}</Label>
             <Number>{age}</Number>
             <RowIcons>
               <CircleButton
                 disabled={age === 0}
                 onPress={() => setAge(age - 1)}
                 onPressIn={() => handleAge('minus')}
-                onPressOut={stopCount}
-              >
+                onPressOut={stopCount}>
                 <CircleIcon name="minus" />
               </CircleButton>
               <CircleButton
                 onPress={() => setAge(age + 1)}
                 onPressIn={() => handleAge('plus')}
-                onPressOut={stopCount}
-              >
+                onPressOut={stopCount}>
                 <CircleIcon name="plus" />
               </CircleButton>
             </RowIcons>
@@ -144,7 +144,7 @@ export default function Main({ navigation }) {
         </Row>
       </Container>
       <Button onPress={handleCalculate}>
-        <ButtonLabel>CALCULATE</ButtonLabel>
+        <ButtonLabel>{i18n.t('main.calculate')}</ButtonLabel>
       </Button>
     </>
   );
@@ -153,5 +153,6 @@ export default function Main({ navigation }) {
 Main.propTypes = {
   navigation: PropTypes.shape({
     navigate: PropTypes.func,
+    getParam: PropTypes.func,
   }).isRequired,
 };

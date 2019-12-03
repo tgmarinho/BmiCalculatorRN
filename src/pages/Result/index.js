@@ -9,24 +9,27 @@ import {
   TextBMI,
   DescriptionResult,
 } from './styles';
-import { Button, ButtonLabel } from '../../components/styles';
+import i18n from '../../i18n';
 
-export default function Result({ navigation }) {
+import {Button, ButtonLabel} from '../../components/styles';
+
+export default function Result({navigation}) {
   const result = navigation.getParam('result');
+  const data = navigation.getParam('data');
   return (
     <>
       <Container>
-        <LabelResult>Your Result</LabelResult>
+        <LabelResult>{i18n.t('result.title')}</LabelResult>
 
         <CardResult>
           <TextNomal>{result.diagnostic}</TextNomal>
           <TextNumber>{result.calc}</TextNumber>
-          <TextBMI>Normal BMI range:</TextBMI>
+          {/* <TextBMI>{i18n.t('result.bmi')}</TextBMI> */}
           <DescriptionResult>{result.description}</DescriptionResult>
         </CardResult>
       </Container>
-      <Button onPress={() => navigation.navigate('Main')}>
-        <ButtonLabel>RE-CALCULATE</ButtonLabel>
+      <Button onPress={() => navigation.navigate('Main', {data})}>
+        <ButtonLabel>{i18n.t('result.button')}</ButtonLabel>
       </Button>
     </>
   );

@@ -1,30 +1,32 @@
 import {Enum} from 'enumify';
 
+import i18n from '../i18n';
+
 class Interpretation extends Enum {}
 
 Interpretation.initEnum({
   OVERWEIGHT: {
     getDiagnostic() {
-      return 'OVERWEIGHT!';
+      return i18n.t('enumbmi.overweight.diagnostic');
     },
     getDescription() {
-      return 'You have a higher than normal body weight. Try to exercise more.';
+      return i18n.t('enumbmi.overweight.description');
     },
   },
   NORMAL: {
     getDiagnostic() {
-      return 'NORMAL!';
+      return i18n.t('enumbmi.normal.diagnostic');
     },
     getDescription() {
-      return 'You have a normal body weight. Good job!';
+      return i18n.t('enumbmi.normal.description');
     },
   },
   UNDERWEIGHT: {
     getDiagnostic() {
-      return 'UNDERWEIGHT!';
+      return i18n.t('enumbmi.underweight.diagnostic');
     },
     getDescription() {
-      return 'You have a lower than normal body weight. You can eat a bit more!';
+      return i18n.t('enumbmi.underweight.description');
     },
   },
 });
