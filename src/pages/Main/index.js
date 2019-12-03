@@ -24,7 +24,7 @@ import {
 import i18n from '../../i18n';
 
 export default function Main({navigation}) {
-  const data = navigation.getParam('data');
+  const data = navigation.getParam('data') || {};
 
   const [gender, setGender] = useState(data.gender || '');
   const [height, setHeight] = useState(data.height || 164);
